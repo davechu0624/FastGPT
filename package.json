@@ -19,5 +19,9 @@
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@alicloud/dysmsapi20170525": "^2.0.24",
+    "nodemailer": "^6.9.4"
   }
 }

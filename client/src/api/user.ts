@@ -9,7 +9,7 @@ import { informSchema, PaySchema } from '@/types/mongoSchema';
 export const sendAuthCode = (data: {
   username: string;
   type: `${UserAuthTypeEnum}`;
-  googleToken: string;
+  //googleToken: string;
 }) => POST('/user/sendAuthCode', data);
 
 export const getTokenLogin = () => GET<UserType>('/user/account/tokenLogin');
