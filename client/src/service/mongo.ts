@@ -110,7 +110,7 @@ async function initPg() {
     console.log('init pg error', error);
   }
 }
-
+export * from './models/authCode';
 export * from './models/chat';
 export * from './models/app';
 export * from './models/user';
